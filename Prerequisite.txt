@@ -1,0 +1,16 @@
+Check Whether Your PC having python version above 3.8.0 
+python --version
+Check pip is installed or not 
+ pip --version
+ Output : 'pip' is not recognized as an internal or external command,
+           operable program or batch file.
+ If not run this command to install pip in command prompt
+ Step 1 : curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+ Step 2: python get-pip.py 
+ Step 3: place path in system environmetal variable 
+ Output : WARNING: The scripts pip.exe, pip3.10.exe and pip3.exe are installed in 'C:\Users\name_of_user\AppData\Roaming\Python\Python310\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+        Copy the path you got in output place in system environmetal variable 
+ Step 4:pip --version 
+
+ 
