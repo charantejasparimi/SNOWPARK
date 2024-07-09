@@ -2,12 +2,12 @@ import snowflake.snowpark.functions
 from snowflake.snowpark import Session
 
 # CHECK YOUR DETAILS IN SNOWFLAKE & CHANGE ACCORDINGLY
-connection_parameters = {"account":"gjb88616.us-east-1",
-"user":"teja",
-"password": "Teja@9999",
+connection_parameters = {"account":"ACCOUNT_NAME",
+"user":"USERNAME",
+"password": "PASSWORD",
 "role":"ACCOUNTADMIN",
 "warehouse":"COMPUTE_WH",
-"database":"SAM",
+"database":"DATABASE_NAME",
 "schema":"PUBLIC"
 }
 try:
