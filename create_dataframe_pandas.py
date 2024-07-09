@@ -6,12 +6,12 @@ from snowflake.snowpark.types import IntegerType, StringType, StructField, Struc
 
 
 # Replace the below connection_parameters with your respective snowflake account,user name and password
-connection_parameters = {"account":"gjb88616.us-east-1",
-"user":"teja",
-"password": "Teja@9999",
+connection_parameters = {"account":"ACCOUNT_NAME",
+"user":"USERNAME",
+"password": "PASSWORD",
 "role":"ACCOUNTADMIN",
 "warehouse":"COMPUTE_WH",
-"database":"SAM",
+"database":"DATABASE_NAME",
 "schema":"PUBLIC"
 }
 
