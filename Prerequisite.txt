@@ -12,5 +12,9 @@ Check pip is installed or not
   Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
         Copy the path you got in output place in system environmetal variable 
  Step 4:pip --version 
+ Step 5:pip install snowflake-connector-python
+ Step 6:pip install snowflake-snowpark-python
+
+
 
  

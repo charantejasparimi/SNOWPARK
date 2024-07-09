@@ -5,12 +5,12 @@ import time
 from snowflake.snowpark.types import IntegerType, StringType, StructField, StructType, DateType
 
 # Replace the below connection_parameters with your respective snowflake account,user name and password
-connection_parameters = {"account":"ENTER_YOUR_ACCOUNT_IDENTIFIER_HERE",
-"user":"ENTER_YOUR_USER_NAME_HERE",
-"password": "ENTER_YOUR_PASSWORD_HERE",
+connection_parameters = {"account":"gjb88616.us-east-1",
+"user":"teja",
+"password": "Teja@9999",
 "role":"ACCOUNTADMIN",
-"warehouse":"COMPUTE_WH",#DEFAULT WAREHOUSE
-"database":"DATABASE_NAME_HERE",
+"warehouse":"COMPUTE_WH",
+"database":"SAM",
 "schema":"PUBLIC"
 }
 try:
